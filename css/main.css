@@ -1,0 +1,87 @@
+header{
+  display: flex;
+  width: 100%;
+  background-color: #00000099;
+}
+header img{
+  width: auto;
+  height: 176px;
+
+}
+header h1{
+  font-size: 70px;
+  color: white;
+  text-shadow: -4px -1px #24da249c;
+  margin-left: 10%;
+}
+body{
+  background-image: url("https://www.rdstudy.com/images/progress.gif");
+  object-fit: cover;
+  background-position: bottom;
+  object-position: center;
+  width: 100%;
+}
+
+.main-section{
+  width: 85%;
+  margin-left: 8%;
+}
+.main-section-wrapper{
+  width: 25%;
+  float: left;
+  padding-left: 99px;
+  background-color: #de6b00c9;
+}
+.main-section-wrapper ul li{
+
+}
+.main-section-wrapper ul li:hover {
+  color: yellow;
+}
+
+.profile-pic{
+  padding-left: 100px
+}
+
+.profile-pic img{
+  width: 200px;
+  border-radius: 30px;
+  margin-top: 85px;
+
+}
+.profile-pic h2{
+font-size: 40px;
+}
+
+.project-section{
+  float: right;
+  width: 18%;
+  padding-left: 5%;
+  margin: 0 auto;
+  display: inline-block;
+  background: #01a5007d;
+  position: relative;
+  right: 30%;
+}
+
+.show{
+  display: block
+}
+
+.project-section ul li:hover{
+  color: yellow;
+}
+
+.Education-section{
+  background-color: #ceb500b5;
+  width: 17%;
+  padding: 133px 104px;
+  margin-left: 8%;
+}
+
+.Education-section ul li{
+
+}
+.Education-section ul li:hover {
+  color: yellow;
+}
